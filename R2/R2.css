@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container{
+
+    overflow-x:auto;
+    margin-top: 15%;
+    margin-right: 15%;
+    margin-left: 15%;
+
+}
+
+.tables{
+
+    margin: 0px auto;
+    width: 80%;
+    color: grey;
+    border-collapse: collapse
+    
+}
+
+td, th {
+
+    border: 1px solid #e0e0e0;
+    text-align: left;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+   
+  }
+
+
+
+
+tr:nth-child(even) {
+    background-color: #c1d4fc25;
+  }
